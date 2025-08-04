@@ -1,0 +1,40 @@
+body {
+  background-color: midnightblue;
+  color: darkgrey;
+  font-family: fantasy, monospace;
+  margin: 0;
+  padding: 20px;
+
+  a,
+  button {
+    padding: 8px;
+    background-color: navy;
+    color: darkgrey;
+    text-decoration: none;
+    border-radius: 8px;
+    border: none;
+
+    &:hover {
+      background-color: darkblue;
+      color: grey;
+    }
+  }
+
+  .navbar,
+  .buttons {
+    display: flex;
+    gap: 4px;
+  }
+
+  h2 {
+    height: 37px;
+  }
+
+  .description {
+    background-color: darkgrey;
+    color: midnightblue;
+    border-radius: 8px;
+    margin-top: 18px;
+    padding: 8px;
+  }
+}
