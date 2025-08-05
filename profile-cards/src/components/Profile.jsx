@@ -11,7 +11,7 @@ export default function Profile(uid) {
   });
 
   return (
-    <div>
+    <div className="content">
       <ProfileCards users={userList} />
     </div>
   );
